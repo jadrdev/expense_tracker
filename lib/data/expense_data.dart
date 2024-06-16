@@ -104,4 +104,10 @@ class ExpenseData {
   
 
   */
+
+  Map <String, double> calculateDailyExpenseSummary() {
+    Map <String, double> dailyExpenseSummary = {};
+    //date (yyymmdd) : amountTotalForDay
+    
+  }
 }
