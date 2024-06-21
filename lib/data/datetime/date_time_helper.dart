@@ -1,6 +1,6 @@
 // convert DaTeTime object to string yyyymmdd
 
-String convertDateTimeYoString(DateTime datetime) {
+String convertDateTimeToString(DateTime datetime) {
   // year in the format yyyy
   String year = datetime.year.toString();
   // month in the format mm
