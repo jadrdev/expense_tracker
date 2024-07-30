@@ -92,7 +92,9 @@ class _HomePageState extends State<HomePage> {
             itemBuilder: (context, index) => ExpensiveTitle(
                 name: value.getAllExpenseList()[index].name,
                 amount: value.getAllExpenseList()[index].amount,
-                dateTime: value.getAllExpenseList()[index].dateTime
+                dateTime: value.getAllExpenseList()[index].dateTime,
+                onEdit: (p0) => openEditBox,
+                onDelete: (p0) => openDeletebox,
             )
         )
         ],)
